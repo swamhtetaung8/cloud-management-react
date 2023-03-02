@@ -23,7 +23,7 @@ const Hero = () => {
           <img src={heroImg} className=" w-full" alt="" />
         </div>
       </div>
-      <div className=" absolute border shadow-xl bottom-[5%] p-8 bg-white rounded-lg w-[380px] md:w-[600px] lg:w-[800px]">
+      <div className=" absolute border shadow-xl bottom-[5%] p-8 bg-white rounded-lg w-[350px] sm:w-[380px] md:w-[600px] lg:w-[800px]">
         <p className=" text-center mb-5">Data Services</p>
         <div className="flex justify-between items-center gap-5 flex-wrap">
           <p className=" flex items-center gap-2">

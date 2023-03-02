@@ -41,10 +41,10 @@ const Footer = () => {
           <p className="font-light">
             The latest news, articles, and resources, sent to your inbox weekly.
           </p>
-          <div className="flex gap-3 items-end">
+          <div className="flex flex-col md:flex-row gap-3 items-end">
             <input
               type="text"
-              className=" md:flex-1 rounded text-slate-800 outline-none pl-5 h-full"
+              className="flex-1 rounded text-slate-800 outline-none pl-5 w-full py-4 md:w-auto md:py-0 h-full"
               placeholder="Enter your email"
             />
             <button className=" font-medium block w-full mt-4 px-7 py-2 md:w-auto h-full bg-purple-600 rounded-lg text-white">
