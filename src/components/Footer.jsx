@@ -44,7 +44,7 @@ const Footer = () => {
           <div className="flex gap-3 items-end">
             <input
               type="text"
-              className=" flex-1 rounded text-slate-800 outline-none pl-5 h-full"
+              className=" md:flex-1 rounded text-slate-800 outline-none pl-5 h-full"
               placeholder="Enter your email"
             />
             <button className=" font-medium block w-full mt-4 px-7 py-2 md:w-auto h-full bg-purple-600 rounded-lg text-white">
